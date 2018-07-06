@@ -1,0 +1,73 @@
+2018/07/06 07:00:18 [error] 25#25: *2 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:00:20 [error] 25#25: *2 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:00:20 [notice] 66#66: signal process started
+2018/07/06 07:00:20 [notice] 67#67: signal process started
+2018/07/06 07:00:20 [error] 25#25: *1 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:00:21 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:00:26 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:00:27 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:00:52 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:00:54 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:01:39 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:01:39 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:02:34 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:02:35 [error] 74#74: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:29 [error] 23#23: *2 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:30 [error] 23#23: *4 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:30 [error] 23#23: *4 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:31 [notice] 65#65: signal process started
+2018/07/06 07:06:31 [error] 23#23: *4 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:32 [error] 23#23: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:33 [error] 66#66: *5 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:33 [error] 66#66: *5 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:35 [error] 66#66: *5 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:06:41 [error] 66#66: *5 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:07:07 [error] 66#66: *5 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:07:07 [error] 66#66: *5 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:07:08 [error] 66#66: *5 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:07:11 [error] 66#66: *5 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:11:13 [error] 146#146: *38 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:11:14 [error] 146#146: *38 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:11:27 [error] 146#146: *38 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:11:28 [error] 146#146: *38 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:12:13 [error] 190#190: *46 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:12:51 [error] 224#224: *52 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:13:27 [error] 223#223: *57 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "localhost"
+2018/07/06 07:13:32 [error] 224#224: *52 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:13:57 [error] 274#274: *62 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:13:58 [error] 274#274: *62 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:16:11 [error] 331#331: *77 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:16:21 [notice] 350#350: signal process started
+2018/07/06 07:16:24 [error] 351#351: *81 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:17:58 [notice] 375#375: signal process started
+2018/07/06 07:18:03 [error] 394#394: *92 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:18:05 [error] 394#394: *92 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.23.0.1, server: , request: "GET / HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:18:18 [error] 426#426: *96 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.23.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2018/07/06 07:18:23 [error] 426#426: *96 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.23.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2018/07/06 07:18:55 [error] 460#460: *101 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.23.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2018/07/06 07:19:51 [error] 460#460: *108 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:19:54 [error] 460#460: *107 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:22:27 [error] 502#502: *126 access forbidden by rule, client: 172.23.0.1, server: , request: "GET /health HTTP/1.1", host: "127.0.0.1"
+2018/07/06 07:22:27 [error] 502#502: *126 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/health"
+2018/07/06 07:31:39 [notice] 62#62: signal process started
+2018/07/06 07:31:46 [error] 66#66: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:31:47 [error] 66#66: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:34:25 [error] 121#121: *21 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:34:26 [error] 121#121: *21 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:34:26 [error] 121#121: *21 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:34:26 [error] 121#121: *21 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:35:35 [error] 23#23: *2 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:35:38 [error] 23#23: *3 open() "/etc/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: , request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 07:35:40 [notice] 65#65: signal process started
+2018/07/06 07:35:40 [notice] 72#72: signal process started
+2018/07/06 08:37:09 [error] 7#7: *2 open() "/usr/share/nginx/html/accounts" failed (2: No such file or directory), client: 172.23.0.1, server: localhost, request: "GET /accounts HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 08:43:36 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/api.lokoo.local.conf:6
+2018/07/06 08:43:37 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/api.lokoo.local.conf:6
+2018/07/06 08:43:38 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/api.lokoo.local.conf:6
+2018/07/06 08:43:39 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/api.lokoo.local.conf:6
+2018/07/06 08:43:40 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/api.lokoo.local.conf:6
+2018/07/06 08:43:42 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/api.lokoo.local.conf:6
+2018/07/06 08:43:46 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/api.lokoo.local.conf:6
+2018/07/06 08:43:53 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/api.lokoo.local.conf:6
+2018/07/06 08:44:13 [error] 6#6: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.23.0.1, server: api.lokoo.local, request: "GET / HTTP/1.1", host: "api.lokoo.local"
+2018/07/06 08:44:15 [error] 6#6: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.23.0.1, server: api.lokoo.local, request: "GET / HTTP/1.1", host: "api.lokoo.local"

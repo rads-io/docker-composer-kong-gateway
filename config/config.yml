@@ -1,0 +1,10 @@
+ apis:
+  -
+    name: "account"
+    attributes:
+      upstream_url: "http://api.lokoo.local/accounts"
+      hosts: "api.lokoo.local"
+      uris:
+        - "/accounts"
+      methods: ["POST", "PUT", "GET", "DELETE"]
+    plugins:

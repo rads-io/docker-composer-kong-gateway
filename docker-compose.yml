@@ -1,0 +1,62 @@
+version: '3'
+
+services:
+  nginx-proxy:
+    image: nginx:latest
+    links:
+      - u-service-account
+    depends_on:
+      - u-service-account
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./logs/nginx/:/var/log/nginx
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    restart: always
+
+  kong-database:
+    image: postgres:9.5
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=kong
+      - POSTGRES_DB=kong
+
+  kong-migration:
+    image: kong
+    depends_on:
+      - kong-database
+    environment:
+      - KONG_DATABASE=postgres
+      - KONG_PG_HOST=kong-database
+    command: kong migrations up
+
+  kong:
+    image: kong
+    ports:
+      - 8000:8000
+      - 8443:8443
+      - 8001:8001
+      - 7946:7946
+      - 7946:7946/udp
+    depends_on:
+      - kong-database
+      - kong-migration
+    environment:
+      - KONG_DATABASE=postgres
+      - KONG_PG_HOST=kong-database
+      - KONG_PG_DATABASE=kong
+      - KONG_ADMIN_LISTEN=0.0.0.0:8001
+    restart: on-failure
+
+  u-service-account:
+    build: ./volumes/private/account
+    volumes:
+      - ./volumes/private/account:/var/www/html
+    environment:
+      - WEBROOT=/var/www/html/public
+    ports:
+      - 9000:9000
+      - 8080:8080
+    command: php bin/console server:run *:8080
