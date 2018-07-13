@@ -22,6 +22,8 @@ services:
     environment:
       - POSTGRES_USER=kong
       - POSTGRES_DB=kong
+    networks:
+      - kong
 
   kong-migration:
     image: kong
@@ -31,6 +33,8 @@ services:
       - KONG_DATABASE=postgres
       - KONG_PG_HOST=kong-database
     command: kong migrations up
+    networks:
+      - kong
 
   kong:
     image: kong
@@ -49,6 +53,8 @@ services:
       - KONG_PG_DATABASE=kong
       - KONG_ADMIN_LISTEN=0.0.0.0:8001
     restart: on-failure
+    networks:
+      - kong
 
   u-service-account:
     build: ./volumes/private/account
@@ -60,3 +66,9 @@ services:
       - 9000:9000
       - 8080:8080
     command: php bin/console server:run *:8080
+    networks:
+      - kong
+      - default
+
+networks:
+  kong:
