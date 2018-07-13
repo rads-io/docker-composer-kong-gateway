@@ -2,7 +2,7 @@
   -
     name: "account"
     attributes:
-      upstream_url: "http://api.lokoo.local/accounts"
+      upstream_url: "http://u-service-account:8080"
       hosts: "api.lokoo.local"
       uris:
         - "/accounts"
